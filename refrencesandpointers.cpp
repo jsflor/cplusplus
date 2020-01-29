@@ -20,6 +20,12 @@ int main(){
 
     cout << nameptr << "\n"; // Reference: Output the memory address of name with the pointer (xxxxxx)
     cout << *nameptr << "\n"; // Dereference: Output the value of name with the pointer (Sebastian)
+    
+    *nameptr = "Sebas";
+
+    cout << *ptr << "\n";   // output the new value of the pointer (Sebas)
+
+    cout << name << "\n";   // output the new value of name variable (Sebas)
 
     return 0;
 }
