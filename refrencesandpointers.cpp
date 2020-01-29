@@ -9,6 +9,7 @@ int main(){
     string &nameref = name; //Reference to name
 
     name = "Sebastian";
+    
     cout << name << "\n";   //output value of name (Sebastian)
     cout << nameref << "\n";    //output reference to name (Sebastian)
 
