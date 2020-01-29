@@ -24,7 +24,7 @@ int main(){
     
     *nameptr = "Sebas"; // change the value of the pointer
 
-    cout << *ptr << "\n";   // output the new value of the pointer (Sebas)
+    cout << *nameptr << "\n";   // output the new value of the pointer (Sebas)
 
     cout << name << "\n";   // output the new value of name variable (Sebas)
 
