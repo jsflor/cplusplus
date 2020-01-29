@@ -97,4 +97,6 @@ int main(){
 
     cout << "\nHi " << teacher.getName() << "!, you are teacher of " << teacher.getSubject() << "\n";
     teacher.greetings();
+    
+    return 0;
 };
